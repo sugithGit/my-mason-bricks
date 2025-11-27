@@ -1,8 +1,9 @@
-import 'package:get/get.dart';
+import 'package:rxget/get.dart';
 
 part '{{name.snakeCase()}}_state.dart';
 
 final class {{name.pascalCase()}}Controller extends GetxController<_{{name.pascalCase()}}State> {
+  @override
   final state = _{{name.pascalCase()}}State();
 
   /// Event Getters
