@@ -4,6 +4,8 @@ part '{{name.snakeCase()}}_state.dart';
 
 final class {{name.pascalCase()}}Controller extends GetxController<_{{name.pascalCase()}}State> {
   @override
+  // 
+  // ignore: library_private_types_in_public_api
   final state = _{{name.pascalCase()}}State();
 
   /// Event Getters
